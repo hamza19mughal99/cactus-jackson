@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700&display=swap');
+
+@font-face {
+  font-family: 'Futura PT';
+  src: url('/public/fonts/FuturaPT-Light.woff2') format('woff2'),
+      url('/public/fonts/FuturaPT-Light.woff') format('woff');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Futura PT';
+  src: url('/public/fonts/FuturaPT-Heavy.woff2') format('woff2'),
+      url('/public/fonts/FuturaPT-Heavy.woff') format('woff');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Futura PT Extra';
+  src: url('/public/fonts/FuturaPT-ExtraBold.woff2') format('woff2'),
+      url('/public/fonts/FuturaPT-ExtraBold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Futura PT';
+  src: url('/public/fonts/FuturaPT-HeavyObl.woff2') format('woff2'),
+      url('/public/fonts/FuturaPT-HeavyObl.woff') format('woff');
+  font-weight: 900;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Futura PT Extra';
+  src: url('/public/fonts/FuturaPT-ExtraBoldObl.woff2') format('woff2'),
+      url('/public/fonts/FuturaPT-ExtraBoldObl.woff') format('woff');
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Futura PT Demi';
+  src: url('/public/fonts/FuturaPT-DemiObl.woff2') format('woff2'),
+      url('/public/fonts/FuturaPT-DemiObl.woff') format('woff');
+  font-weight: 600;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Futura PT';
+  src: url('/public/fonts/FuturaPT-LightObl.woff2') format('woff2'),
+      url('/public/fonts/FuturaPT-LightObl.woff') format('woff');
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Futura PT';
+  src: url('/public/fonts/FuturaPT-MediumObl.woff2') format('woff2'),
+      url('/public/fonts/FuturaPT-MediumObl.woff') format('woff');
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Futura PT';
+  src: url('/public/fonts/FuturaPT-Medium.woff2') format('woff2'),
+      url('/public/fonts/FuturaPT-Medium.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Futura PT', sans-serif !important;
+}
+
+img{
+  max-width: 100%;
+}
+
+.loader_main_div{
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

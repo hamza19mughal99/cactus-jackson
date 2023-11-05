@@ -1,0 +1,128 @@
+.Main {
+    width: 100%;
+    display: flex;
+    min-height: 100vh;
+}
+
+.Main .Right {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #ffffff;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    position: relative;
+}
+
+.Main .Left {
+    width: 50%;
+    background-image: url('/public/images/david-lezcano.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* min-height: 800px; */
+}
+
+.Main .Right form>div,
+.Main .Right>div,
+.Main .Right>img {
+    margin-bottom: 20px;
+}
+
+.Main .Right form a {
+    text-decoration: none;
+    color: #43425D;
+}
+
+.Main .Right form span {
+    color: #43425D;
+    font-size: 17px;
+}
+
+.Text {
+    text-align: center;
+    color: #8d8d94;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.Main .Right form .Two {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Main .Right form button {
+    text-transform: capitalize;
+    font-weight: 400 !important;
+    box-shadow: none;
+    font-size: 17px;
+    padding: 8px 50px;
+}
+
+.Main .Right p{
+    color: #43425D;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.Main .Right form .emptyButton {
+    border: 1px solid #43425D;
+}
+
+.Main .Right .GroupLeft {
+    margin-right: 10px;
+}
+
+.Main .Right .GroupRight {
+    margin-left: 10px;
+}
+
+.Main .Right form .Checkbox{
+    text-align: left;
+}
+
+.Main .Right a {
+    color: #43425D;
+}
+
+.Main .Right form {
+    width: 55%;
+    text-align: center;
+}
+
+.Main .Right form .FormGroup {
+    display: flex;
+    justify-content: space-between;
+}
+
+.Main .Right form .FormGroup>div {
+    width: 48%;
+}
+
+.Main .Right .MuiFormLabel-root {
+    color: #43425D;
+}
+
+.Main .Right .footnote {
+    position: absolute;
+    bottom: 0;
+    font-size: 13px;
+    color: #43425D;
+}
+
+@media (max-width: 780px) {
+    .Main .Left {
+        display: none;
+    }
+
+    .Main .Right {
+        width: 100%;
+    }
+
+    .Main .Right form {
+        width: 85%;
+    }
+}

@@ -1,0 +1,41 @@
+.profession_delete .modal-title{
+    color: #C45856;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.profession_delete .btn-close{
+    opacity: 1;
+}
+
+.profession_delete p{
+    text-align: center;
+    font-size: 24px;
+    color: #000;
+}
+
+.profession_delete .no_btn{
+    padding: 8px 21px;
+    border: none;
+    color: white;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 14px;
+    margin-bottom: 0px;
+    border-radius: 5px;
+    background-color: #C45856;
+    margin-right: 5px;
+}
+
+.profession_delete .yes_btn{
+    padding: 8px 21px;
+    border: none;
+    color: white;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 14px;
+    margin-bottom: 0px;
+    border-radius: 5px;
+    background-color: red;
+    margin-right: 5px;
+}

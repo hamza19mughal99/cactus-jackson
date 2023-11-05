@@ -1,0 +1,67 @@
+.navbar {
+  background-color: #604845;
+}
+
+.navbar-brand img {
+  width: 115px;
+  cursor: pointer;
+}
+
+.navbar-nav .nav-link {
+  color: #fff;
+  text-transform: uppercase;
+  margin-right: 30px;
+  font-size: 18px;
+}
+
+.navbar-collapse button {
+  background-color: #c45856;
+  padding: 5px 20px;
+  text-transform: uppercase;
+  color: #fff;
+  border: none;
+  border-radius: 20px;
+}
+
+.avatar_icon .dropdown-toggle {
+  background-color: transparent !important;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.avatar_icon .dropdown-menu.show {
+  left: auto;
+  right: 30px;
+}
+
+.avatar_icon .dropdown-menu.show .dropdown-item {
+  font-size: 19px;
+}
+
+.avatar_icon {
+  display: flex;
+  align-items: center;
+}
+
+.avatar_icon img {
+  width: 45px;
+  height: 45px;
+  /* object-fit: contain; */
+  border-radius: 100px;
+}
+
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-link.show {
+  color: #fff;
+}
+
+@media (max-width: 780px) {
+  .navbar-collapse button {
+    margin-left: 0%;
+  }
+
+  .navbar-toggler-icon {
+    background-image: url("/public/images/burger-bar.png");
+  }
+}

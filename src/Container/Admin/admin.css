@@ -1,0 +1,288 @@
+.profile_img_section {
+  display: flex;
+  align-items: center;
+}
+.profile_img_container {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  background-color: #836c69;
+  width: 125px;
+  height: 125px;
+  border-radius: 100%;
+}
+
+.profile_img_container img {
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+.profile_upload_btn {
+  padding-left: 18px;
+  color: white;
+}
+.profile_upload_btn label {
+  cursor: pointer;
+}
+.profile_upload_btn img {
+  width: 18px;
+  height: auto;
+  margin-right: 8px;
+}
+.profile_upload_btn h4 {
+  font-size: 14px;
+}
+.profile_form_section form {
+  background-color: #836c69;
+  padding: 20px 30px;
+  border-radius: 6px;
+  border: 1px solid rgb(77, 77, 77);
+}
+.profile_form_section input {
+  width: 100%;
+  background-color: #fff;
+  border: none;
+  outline: none !important;
+  height: 36px;
+  margin-bottom: 20px;
+  border-radius: 4px;
+  padding-left: 10px;
+  font-size: 14px;
+  font-weight: 400;
+  /* color: white; */
+  color: #000;
+}
+.profile_form_section input::placeholder {
+  font-size: 12px;
+  font-weight: 400;
+  color: #000;
+}
+.profile_form_section .change_pswd_btn {
+  padding: 8px 30px;
+  border-radius: 6px;
+  border: none;
+  background-color: rgb(233, 28, 36);
+  color: white;
+  font-weight: 600;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  font-size: 12px;
+  box-shadow: 0px 15px 20px 0px rgba(0, 0, 0, 0.2);
+}
+.profile_form_section .save_btn {
+  padding: 8px 20px;
+  border: none;
+  color: white;
+  font-weight: 600;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  font-size: 12px;
+  margin-bottom: 15px;
+  border-radius: 6px;
+  background-color: #c45856;
+  box-shadow: 0px 15px 20px 0px rgba(0, 0, 0, 0.2);
+}
+
+.create_course {
+  text-align: end;
+  margin-top: 20px;
+}
+
+.create_course button {
+  padding: 10px 25px;
+  border: none;
+  color: white;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 14px;
+  margin-bottom: 0px;
+  border-radius: 8px;
+  background-color: #c45856;
+  letter-spacing: 1px;
+}
+
+.ExpertContent.admin_courses .ExpertCards {
+  margin-top: 20px;
+}
+
+.ExpertContent.admin_courses .Card div {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+}
+
+.ExpertContent.admin_courses .Card div button {
+  padding: 8px 21px;
+  border: none;
+  color: white;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 14px;
+  margin-bottom: 0px;
+  border-radius: 5px;
+  background-color: #c45856;
+  margin-right: 5px;
+}
+
+.expert_Card {
+  background-color: #ffff;
+  position: relative;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border: #868686 solid 1px;
+  box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.62);
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+.expert_Card img {
+  /* width: 100%; */
+  height: 220px;
+  object-fit: cover;
+  object-position: top;
+}
+
+.expert_Card h1 {
+  font-size: 28px;
+  margin-top: 5px;
+  margin-bottom: 0;
+}
+
+.expert_Card h3 {
+  color: #c45856 !important;
+  font-size: 20px;
+}
+
+.back_btn {
+  text-align: end;
+  margin-bottom: 10px;
+}
+
+.back_btn button {
+  padding: 6px 30px;
+  font-size: 18px;
+  background-color: #000;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+}
+
+.expert_Card.lesson_card {
+  height: 100%;
+  padding-top: 15px;
+  margin-bottom: 30px;
+}
+
+.expert_Card.lesson_card h1 {
+  font-size: 32px;
+  margin-top: 5px;
+  margin-bottom: 0;
+  font-weight: 600;
+}
+
+.expert_Card.lesson_card h3 {
+  color: #000 !important;
+  font-size: 32px;
+  font-weight: 500;
+}
+
+.expert_Card.lesson_card h3 span {
+  color: #c45856;
+}
+
+.expert_select {
+  border: 1px solid #00000075 !important;
+  border-radius: 4px !important;
+}
+
+.expert_select .css-13cymwt-control {
+  border: none !important;
+}
+
+.expert_Card.lesson_card button {
+  padding: 8px 21px;
+  border: none;
+  color: white;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 14px;
+  margin-bottom: 0px;
+  border-radius: 5px;
+  background-color: #c45856;
+  margin-right: 5px;
+  position: absolute;
+  right: 5px;
+  bottom: 8px;
+}
+
+.expert_Card button {
+  padding: 8px 21px;
+  border: none;
+  color: white;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 14px;
+  margin-bottom: 0px;
+  border-radius: 5px;
+  background-color: #c45856;
+  margin-right: 5px;
+  position: absolute;
+  right: 5px;
+  bottom: 8px;
+}
+
+.question_answer h5 {
+  margin-bottom: 0;
+  text-align: center;
+  padding-top: 8px;
+}
+
+.course_not_found {
+  text-align: center;
+  font-size: 30px;
+  font-weight: 600;
+  color: #000;
+}
+
+.edit_question {
+  display: flex;
+  gap: 10px;
+}
+
+.edit_question svg {
+  color: #c45856;
+  font-size: 25px;
+  cursor: pointer;
+}
+
+.student_detail {
+  padding: 6px 20px;
+  border: none;
+  color: white;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 14px;
+  border-radius: 5px;
+  background-color: #c45856;
+}
+
+.watched_courses {
+  margin-bottom: 0;
+  font-size: 37px;
+  font-weight: 600;
+  color: #604845;
+  border-bottom: 1px solid;
+}
+
+.download_btn {
+  background-color: #c45856;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 10px;
+  text-decoration: none;
+}

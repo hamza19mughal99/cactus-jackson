@@ -1,0 +1,21 @@
+.not_found{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.not_found h1{
+    font-size: 60px;
+    color: #000;
+}
+
+.not_found button{
+    background-color: #C45856;
+    padding: 7px 40px;
+    text-transform: uppercase;
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+}

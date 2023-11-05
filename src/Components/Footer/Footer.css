@@ -1,0 +1,17 @@
+.footer_main{
+    background-color: #604845;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.footer_main p{
+    color: #fff;
+    font-size: 20px;
+    margin-bottom: 0;
+}
+
+.footer_main img{
+    width: 50px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}

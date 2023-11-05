@@ -1,0 +1,28 @@
+.student_profile_main {
+  background-image: url("/public/images/course_bg.png");
+  background-size: cover;
+  padding-bottom: 60px;
+  width: 100vw;
+  max-width: 100%;
+}
+
+.profile_info_section {
+  background-color: #604845;
+  padding: 20px 30px;
+  border-radius: 10px;
+  border: 1px solid rgb(77, 77, 77);
+  margin: 45px 0px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.profile_info_section .profile_form_section form {
+  background-color: #836c69 !important;
+}
+
+.profile_info_section .profile_form_section input {
+  font-size: 14px !important;
+}
+
+.profile_info_section button {
+  background-color: #c45856 !important;
+}
